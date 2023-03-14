@@ -1,0 +1,20 @@
+.sale {
+    margin-bottom: 50em;
+    font-size: 0.25vw;
+
+    @media (min-width: 576px) {
+        font-size: 0.8px;
+        margin-bottom: 60em;
+    }
+
+    @media (min-width: 768px) {
+        font-size: 1px;
+        margin-bottom: 100em;
+    }
+
+    &__content {
+        display: flex;
+        max-width: 930px;
+        margin: 0 auto;
+    }
+}

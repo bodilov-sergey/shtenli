@@ -1,0 +1,32 @@
+.catalog {
+    font-size: calc((50vw - 14px) * 0.0055);
+    margin-bottom: 60em;
+
+    @media (min-width: 576px) {
+        font-size: 1px;
+    }
+
+    @media (min-width: 768px) {
+        font-size: 0.9px;
+        margin-bottom: 100em;
+    }
+
+    @media (min-width: 992px) {
+        font-size: 1px;
+    }
+
+    &__wrapper {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 4%;
+        row-gap: 70em;
+    }
+
+    &__item {
+        width: 100%;
+        @media (min-width: 768px) {
+            width: 48%;
+        }
+    }
+}
